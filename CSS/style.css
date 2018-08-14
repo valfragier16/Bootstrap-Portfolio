@@ -10,29 +10,21 @@ body {
     box-sizing: border-box;
 }
   
-  /* general */
-  
-.container {
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-    clear: both;
+/* general */
+
+/* home - about me */
+.container-main {
+    border-color: #dd4b39;
+    padding: 18x 0;
+    margin: auto 0;
+
 }
 
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    font-size: xx-small;
-    padding:20px;
-    clear: both;
-    background: #666666;
-    border-top: 5px solid #4aaaa5;
-    color: #ffffff;
+header {
+    margin-bottom: 18px 0;
 }
-  
+
+/* Footer */ 
 .fa {
     padding: 20px;
     font-size: 30px;
