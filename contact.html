@@ -11,55 +11,51 @@
 
   <style>
   
-    .red{
-        color:red;
-        }
-    .form-area
-    {
-        background-color: #FAFAFA;
+    .form-are {
+      background-color: #FAFAFA;
       padding: 10px 40px 60px;
       margin: 10px 0px 60px;
       border: 1px solid GREY;
-      }
+    }
 
   </style>
 </head>
 
 <body>
     <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <a class="navbar-brand" href="#"><h1><b>Valerie Fragier</b></h1></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                      <ul class="navbar-nav">
-                        <li class="nav-item active">
-                          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="portfolio.html">Photos</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Specifics
-                          </a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="index.html">About</a>
-                            <a class="dropdown-item" href="portfolio.html">Gallery</a>
-                            <a class="dropdown-item" href="contact.html">Email</a>
-                          </div>
-                        </li>
-                      </ul>
-                    </div>
-            </nav>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><h1><b>Valerie Fragier</b></h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Specifics
+                </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="index.html">About</a>
+                <a class="dropdown-item" href="portfolio.html">Gallery</a>
+                <a class="dropdown-item" href="contact.html">Email</a>
+              </div>
+              </li>
+            </ul>
+          </div>
+      </nav>
     </header>
 
   <div class="container">
-    <div class="col-md-5">
+    <div class="col-md-12">
         <div class="form-area">  
             <form role="form">
               <br style="clear:both">
@@ -88,9 +84,14 @@
   </div>
           
 
-    <footer>
-        @copyright
-    </footer>
+  <footer>
+      <nav class="navbar fixed-bottom navbar-dark bg-dark">
+          <div class="container">
+              <p>© 2018 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+              <p class="float-right"><a href="#">Back to top</a></p>
+          </div>
+      </nav>
+  </footer>
 
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
