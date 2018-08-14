@@ -17,14 +17,70 @@ body {
     height: auto;
 }
 
-.container { position:relative; }
-.container video {
-    position:relative;
-    z-index:0;
-}
 .overlay {
     position:absolute;
-    top:0;
-    left:0;
-    z-index:1;
+    top:100px;
+
 }
+#contact-form {
+    margin-bottom: 20px;
+
+  }
+  
+  #contact-form {
+    margin-bottom: 10px;
+    float: left;
+    margin-left: 100px;
+  }
+
+
+h1 {
+    color: #efefef;
+    margin-top: 10px;
+    margin-left: 100px;
+  }
+
+p {
+    color: #ffffff;
+}
+
+  label,
+  input[type=text],
+  input[type=email],
+  input[type=message],
+  textarea {
+    display: block;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+  }
+  
+  input[type=text],
+  input[type=email],
+  textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+  }
+  
+  input[type=message],
+  textarea {
+    height: 200px;
+  }
+  
+  input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+    margin: 8px 0;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #4aaa;
+  
+  }
