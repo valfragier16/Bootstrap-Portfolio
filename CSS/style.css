@@ -9,17 +9,22 @@ body {
 * {
     box-sizing: border-box;
 }
-  
-/* general */
 
-/* home - about me */
-.container-main {
-    border-color: #dd4b39;
-    padding: 18x 0;
-    margin: auto 0;
+/* Contact page */
 
+.video-fluid {
+    width: 100%;
+    height: auto;
 }
 
-header {
-    margin-bottom: 18px 0;
+.container { position:relative; }
+.container video {
+    position:relative;
+    z-index:0;
+}
+.overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
 }
